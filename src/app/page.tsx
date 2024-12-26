@@ -20,6 +20,7 @@ export default function Home() {
       <Header isExpanded={isExpanded} onToggle={toggleExpand} />
       <main className="flex flex-col items-center pt-20 pb-8 h-[calc(100vh-80px)] overflow-y-auto scrollbar-hide">
         <ScrollableContent isExpanded={isExpanded} />
+        ths 9s new branch
       </main>
     </div>
   );
