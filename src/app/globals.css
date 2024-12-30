@@ -86,6 +86,27 @@ body {
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
+.custom-button {
+  width: 60px !important; 
+  height: 60px !important; 
+  padding: 0 !important;  
+  display: flex !important; 
+  justify-content: center !important; 
+  align-items: center !important;   
+}
+
+.custom-icon {
+  height: 26px !important; 
+  width: 26px !important;  
+  color: blueviolet
+}
+
+
+}
+
+.icon{
+  color: white;
 }
 
 @layer base {

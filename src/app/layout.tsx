@@ -31,7 +31,7 @@ export default function RootLayout({
       >
          <SidebarProvider>
  
-      <main>
+      <main className="w-[100vw] flex justify-center">
     
         {children}
       </main>

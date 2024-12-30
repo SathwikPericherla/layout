@@ -11,7 +11,7 @@ const ResponsiveDashboard: React.FC = () => {
   return (
     <div className="flex flex-col h-screen w-[100vw]">
       {/* Header */}
-      <header className="bg-white shadow-lg p-4 flex justify-between items-center">
+      <header className="bg-white shadow-lgteams p-4 flex justify-between items-center">
         <div className="flex items-center">
           <button className="md:hidden mr-2" onClick={toggleSidebar}>
             <Menu className="h-6 w-6" />
